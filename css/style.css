@@ -13,10 +13,8 @@ body{
 /* header */
 
 .logo{
-  height: 100px ;
+  height: 120px ;
   width: 100%;
-  /* debug */
-  /* background-color: rgb(216, 34, 226); */
 }
 
 #neori{
@@ -31,6 +29,7 @@ li{
   display: inline-block;
   padding-top: 30px;
   padding-right: 10px;
+
 }
 
 a{
@@ -46,18 +45,24 @@ main{
 }
 
 .menu1{
-  height: 300px;
-  width: 100%;
-  /* debug */
-  background-color: rgb(188, 201, 32);
+  position: relative;
+  min-width: 100%;
+  min-height: 500px;
+  background-image: url("../img/banner.jpg");
+  /* background-size: 50%; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  background-repeat: round;
+  border: 1px;
+  border-radius: 5px;
+
 }
+
 
 .leadership{
   margin-top: 30px;
-  height: 50px ;
   width: 100%;
-  /* debug */
-  background-color: rgb(13, 184, 238);
+
 }
 
 /* Menu con float */
@@ -68,10 +73,8 @@ main{
 }
 
 .contenitore{
-  height: 400px ;
+
   width: 100%;
-  /* debug */
-  background-color: rgb(25, 21, 231);
 }
 
 /* Prova con padding */
@@ -81,8 +84,7 @@ main{
   height: 400px;
   width: 25%;
   float: left;
-  /* debug */
-  background-color:rgb(13, 184, 238);
+
 }
 
 .content2{
@@ -90,8 +92,7 @@ main{
   height: 400px;
   width: 50%;
   float: left;
-  /* debug */
-  background-color:rgb(13, 184, 238);
+
 }
 
 .content3{
@@ -100,7 +101,7 @@ main{
   width: 25%;
   float: left;
   /* debug */
-  background-color:rgb(13, 184, 238);
+  /* background-color:rgb(13, 184, 238); */
 }
 
 /* Prova con margin */
@@ -138,6 +139,9 @@ main{
 .love{
   height: 50px ;
   width: 100%;
-  /* debug */
-  background-color: rgb(159, 0, 139);
+  text-align: center;
+}
+
+#cuore{
+  color: red;
 }
