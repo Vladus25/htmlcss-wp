@@ -16,7 +16,26 @@ body{
   height: 100px ;
   width: 100%;
   /* debug */
-  background-color: rgb(216, 34, 226);
+  /* background-color: rgb(216, 34, 226); */
+}
+
+#neori{
+  max-width:150px;
+  max-height:80px;
+
+}
+
+
+li{
+  font-family: 'Montserrat', sans-serif, Arial, Verdana;
+  display: inline-block;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+
+a{
+  color: grey;
+  text-decoration: none;
 }
 
 
